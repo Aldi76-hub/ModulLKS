@@ -195,7 +195,7 @@ html{
 }
 
 #products{
-  height: 600px;
+  height: 550px;
   background-color: #dadada;
 }
 
@@ -205,4 +205,15 @@ html{
 }
 #products .title-product span{
   border-bottom: 3px solid deepskyblue;
+}
+#products .title-product .title-product-2{
+  font-family: 'Campton-Light';
+  color: deepskyblue;
+  border: none;
+}
+#products .row .div-img{
+  padding-top: 30px;
+}
+#products .row img{
+  border: 3px solid deepskyblue;
 }
