@@ -64,7 +64,7 @@ html{
     list-style: none;
     cursor: pointer;
     float: right;
-    margin-left: 400px;
+    margin-left: 250px;
   }
   .nav ul li{
     list-style: none;
@@ -143,10 +143,66 @@ html{
 #about .head-about b{
   font-family: 'Campton-Bold';
   font-size: 30px;
+  border-bottom: 3px solid deepskyblue
+}
+
+#about .head-about span{
+  font-family: 'Campton-Light';
+  font-size: 30px;
+  color : deepskyblue
 }
 
 #about .head-about {
   font-family: 'Campton-Light';
   font-size: 30px;
   /* color:deepskyblue; */
+}
+
+#why{
+  height: 600px;
+}
+#why .title-why span{
+  font-family: 'Campton-Bold';
+  font-size: 30px;
+}
+#why .title-why b{
+  font-family: 'Campton-Bold';
+  font-size: 30px;
+  border-bottom: 3px solid deepskyblue
+}
+
+#why .title-why{
+  font-family: 'Campton-Light';
+  font-size: 30px;
+}
+
+#why .title-why .title-why-3{
+  font-family: 'Campton-Light';
+  font-size: 30px;
+  color: deepskyblue;
+}
+#why .img-why{
+  width: 10%;
+}
+#why .row b{
+  font-family: 'Campton-Bold';
+  font-size: 20px;
+  /* margin-left: 50x; */
+}
+#why .row p{
+  font-family: 'Campton-Light';
+  color: dimgrey;
+}
+
+#products{
+  height: 600px;
+  background-color: #dadada;
+}
+
+#products .title-product{
+  font-family: 'Campton-Bold';
+  font-size: 30px;
+}
+#products .title-product span{
+  border-bottom: 3px solid deepskyblue;
 }
