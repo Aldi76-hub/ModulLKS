@@ -217,3 +217,31 @@ html{
 #products .row img{
   border: 3px solid deepskyblue;
 }
+#our-product{
+  height: 600px;
+}
+#our-product .title-our-product{
+  font-family: 'Campton-Bold';
+  font-size: 30px;
+}
+#our-product .title-our-product span{
+  font-family: 'Campton-Light';
+  color: deepskyblue;
+  border-bottom: 3px solid deepskyblue;
+}
+#our-product .title-our-product .title-op-2{
+  border: none;
+}
+#our-product .isi{
+  font-family: 'Campton-Light';
+  color:dimgrey;
+  padding-top: 23px;
+}
+#our-product .nav-op{
+  font-family: 'Campton-Light';
+  color:dimgrey;
+  padding-top: 10px;
+}
+#our-product .row img{
+  padding-top: 10px;
+}
