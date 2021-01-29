@@ -211,12 +211,111 @@ html{
   color: deepskyblue;
   border: none;
 }
-#products .row .div-img{
+#products .row .col-lg-3{
   padding-top: 30px;
 }
-#products .row img{
+#products .row .div-img{
   border: 3px solid deepskyblue;
+  position: relative;
 }
+#products .row .div-img img{
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+#products .overlay{
+  font-family: 'Campton-Bold';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:dodgerblue;
+  /* z-index: 0; */
+}
+
+#products .div-img:hover .overlay{
+  opacity: 0.7;
+  z-index: 2;
+}
+#products .div-img:hover{
+  border: none;
+}
+
+#products .overlay .text{
+  padding-top: 40%;
+  font-family: 'Campton-Bold';
+  font-size: 20px;
+  color: white;
+}
+#products .overlay .btn{
+  background-color:rgb(15, 107, 199);
+}
+
+/* modal_feature */
+#products .modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+#products .modal-content-feature {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 60%;
+}
+
+/* The Close Button */
+#products .close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  float:right;
+  width: 10%;
+}
+
+#products .close:hover,
+#products .close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#products .modal .row h3{
+  padding-top: 20px;
+  font-family: 'Campton-Bold';
+  float: left;
+}
+
+#products .modal .row p{
+  padding-top: 25px;
+  font-family: 'Campton-Light';
+  float: left;
+  color: dimgrey;
+  text-align: left;
+}
+
+/* end */
+
 #our-product{
   height: 600px;
 }
